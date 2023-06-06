@@ -2,7 +2,7 @@
 
 # Frontend Mentor - Product preview card component 
 
-This is a solution to the [Base Apparel Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Base Apparel Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 
 ## Overview
