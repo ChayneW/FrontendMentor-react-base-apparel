@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --ft-Josefin: 'Josefin Sans', sans-serif;
+    --Desat-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Gradient-col-1: hsl(0, 0%, 100%), hsl(0, 100%, 98%);
+    --Gradient-col-2: hsl(0, 80%, 86%), hsl(0, 74%, 74%);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: var(--ft-Josefin);
+    margin: 0;
+}
+
+.hero-container {
+    height: 100%;
+    /* background-color: ; */
+}
+
+.logo {
+    padding: 20px 0px 20px 30px;
+}
+
+.img-pic-tag-imgmbl {
+    display: block;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.img-pic-tag-imgdesk {
+    display: none;
+}
+
+.hero-details {
+    padding-top: 40px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-title {
+    /* margin-; */
+    margin-bottom: 1em;
+
+}
+
+.hero-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: .4rem;
+}
+
+.hero-title span {
+    color: var(--Desat-Red);
+    font-weight: 50;
+    letter-spacing: .55rem;
+}
+
+.hero-details p {
+    margin: 1em 1.5em;
+    font-size: 17px;
+    color: var(--Desat-Red);
+}
+
+.email-border {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    border: solid;
+    border-radius: 30px;
+    border-color: var(--Desat-Red);
+    width: 70%;
+    height: 60px;
+}
+
+.email-border input[type=email] {
+    background: transparent;
+    margin-left: 30px;
+    height: 30px;
+    width: 70%;
+}
+
+.email-button {
+    margin-left: 4rem;
+   background: linear-gradient(135deg, var(--Gradient-col-2)); 
+   width: 80px;
+   height: 60px;
+   padding-left: 35px;
+   border-radius: 30px;
+   cursor: pointer;
+}
+
+.error {
+    padding-bottom: 40px;
+}
+
+.error-icon {
+    padding-left: 20px;
+}
+
+.error-msg {
+    color: var(--Soft-Red);
+    /* padding-bottom: 40px; */
+}
+
+@media screen and (width >= 1024px) {
+
+    .card {
+        /* box-sizing: border-box; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .hero-container {
+        width: 60%;
+        height: 80vh;
+        display: grid;
+    }
+
+    .logo {
+        max-height: 100px;
+        margin-left: 7.5rem;
+    }
+
+    .hero-details {
+        text-align: left;
+        margin-left: 8rem;
+    }
+
+    .hero-title {
+        margin: auto;
+        /* margin-right: 15rem; */
+        /* font-size: 70px; */
+    }
+
+    .hero-title h1 {
+        margin-left: 20px;
+        font-size: 70px;
+    }
+
+    .hero-title p {
+        text-align: left;
+        font-size: 14px;
+        margin-right: 20px;
+        padding-right: 40px;
+    }
+
+    .email-border {
+        margin-left: 40px;
+    }
+
+    .error {
+        margin: 10px 0px 20px 80px;
+    }
+
+    .img-container {
+        height: 100%;
+    }
+
+    .img-pic-tag-imgmbl {
+        display: none;
+    }
+
+    #desk {
+        display: block;
+        /* width: 60vw; */
+        width: fit-content;
+        height: 100vh;
+    }
+    /* .img {
+        width: 100vw;
+        height: 100vh;
+    } */
+
+
+}
